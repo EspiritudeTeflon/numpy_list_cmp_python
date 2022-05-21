@@ -20,6 +20,8 @@ if __name__ == '__main__':
 
     # potencia_2 = lambda x:......
     # pot_3 = potencia_2(3)
+    potencia_2 = lambda x: x**2
+    pot_3= potencia_2 (5)
 
     # 2)
     # Utilice la función map para mapear una lambda expression
@@ -34,7 +36,8 @@ if __name__ == '__main__':
 
     # Lista de numeros
     numeros = [1, -5, 4, 3]
-
+    numeros_potencia= list(map(lambda numero: numero**2, numeros))
+    print(numeros_potencia)
     # numeros_potencia = list(map....)
 
     print("terminamos")
